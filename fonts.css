@@ -1,0 +1,248 @@
+/*this css sheet will be just the fonts, size, weight and height of font
+basically everything that has to do with text
+i have included this sheet to be organized and have all the other html pages to have their
+font designed by this page, so it will have many elemnts that you might not find in one pages*/
+header, #header0, #hab1 {
+    font-family: Poppins,sans-serif;
+    text-align: left;
+    line-height: 100%;
+
+  }
+
+#header0{
+  color: white;
+}
+  .parttwo .firstpart{
+    text-align: left;
+    }
+    #header3, #ah1{
+      font-family: 'Lora',Georgia,"Times New Roman",serif;
+      font-size: 300%;
+      font-weight: 700;
+      line-height: 1.5em;
+    }
+    #header4, #header2{
+       font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+       font-size: 125%;
+       line-height: 1.5em;
+    }
+    #bigheader5, #header9, #header19, #header21{
+
+      font-family: 'Lora',Georgia,"Times New Roman",serif;
+      font-size: 300%;
+      font-weight: 700;
+      line-height: 1.5em;
+      text-align: center;
+    }
+
+#ad2, #info, #br{
+  font-size: 100%;
+  font-weight: 500;
+  font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+}
+#header6, #header7, #header22, #header23, #hab2, #hab3{
+     text-transform: uppercase;
+     font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+     font-size: 125%;
+     line-height: 1.5em;
+     text-align: left;
+}
+
+#header8, #header14, #header18{
+  text-transform: uppercase;
+  font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+  font-size: 125%;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+
+  #ph1, #ph6, #ph7, #ph15, #ph16, #ph17, #ph22, #ph23,
+  #pab1, #pab2, #pab3, #pab4, #pab5, #pab6, #ap1{
+    font-family: 'Lora',Georgia,"Times New Roman",serif;
+    font-size: 137%;
+    font-weight: 500;
+
+}
+ #ph10, #ph11, #ph12, #ph13{
+   font-family: 'Lora',Georgia,"Times New Roman",serif;
+   font-size: 137%;
+   font-weight: 500;
+   text-align:left;
+    width: 70%;
+    margin: auto;
+ }
+
+#header15 {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 250%;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-align: center;
+}
+dt {
+  font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+  font-size: 125%;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+dd {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 125%;
+  font-weight: 500;
+}
+#lab {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 125%;
+  font-weight: 500;
+}
+#hab4, #hab5, #hab{
+ font-family: 'Lora',Georgia,"Times New Roman",serif;
+ font-size: 250%;
+ font-weight: 600;
+ line-height: 1.5em;
+}
+#header10,#header11,#header12,#header13,#header20 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+  font-size: 125%;
+  line-height: 1.5em;
+    text-align: center;
+}
+#hab6, #hab7, #hab8{
+  text-transform: uppercase;
+  font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+  font-size: 120%;
+  line-height: 1em;
+  text-align: left;
+}
+#pab4, #pab5, #pab6 {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 112%;
+  font-weight: 400;
+
+}
+#ph24{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+font-size: 112%;
+font-weight: 200;
+text-align: left;
+margin: auto;
+}
+#table1 th {
+   text-transform: uppercase;
+   font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+   font-size: 125%;
+   line-height: 1.2em;
+   text-align: left;
+
+ }
+#table1 td {
+   text-transform: uppercase;
+   font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+   font-size: 112%;
+   line-height: 1.2em;
+   text-align: left;
+ }
+ #ah1, #ah2, #ah3, #ah4, #ah5{
+ font-family: 'Lora',Geaeisejsorgia,"Times New Roman",serif;
+ font-size: 250%;
+ font-weight: 600;
+ line-height: 1.5em;
+}
+#ap1, #ap2 {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 137%;
+  font-weight: 500;
+}
+.why li {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 137%;
+  font-weight: 500;
+}
+.petpic figcaption{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 94%;
+  font-weight: 500;
+}
+.meetingform{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size:137%;
+  font-weight: 500;
+}
+#subbutton{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 125%;
+  font-weight: 400;
+}
+#org{
+  text-align: left;
+
+}
+.navbar li{
+  font-family: Poppins,sans-serif;
+  color: #232220;
+}
+#ah1{
+  font-weight: 700;
+  color: white;
+}
+#ap1{
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+#inv1, #inv2, #inv6, #inv7, #inv8{
+  font-family: 'Lora',Geaeisejsorgia,"Times New Roman",serif;
+  font-size: 250%;
+  font-weight: 600;
+  line-height: 1.5em;
+
+}
+#inv3, #inv4, #inv5{
+  text-transform: uppercase;
+  font-family: 'Oswald', Helvetica ,Arial,Lucida,sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+  line-height: 1em;
+
+}
+#pnv1, #pnv2, #pnv3, #pnv4, #pnv5, #pnv6, #pnv7, #pnv8{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 120%;
+  font-weight: 500;
+  text-align: left;
+
+}
+#ul1 li{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 120%;
+  font-weight: 500;
+  text-align: left;
+}
+
+@media (max-width: 790px){
+/*some of the elements that i wanted to be focused on when changing the device size*/
+#header3{
+  font-size: 200%;
+  text-align: right;
+}
+  #ph1{
+    color: black;
+    width: 120%;
+    text-align: left;
+    padding-top: 10%;
+
+  }
+  .parttwo{
+    padding: 0;
+  }
+#table1  td,#table1 th, #org th, #org td{
+    font-size: 90%!important;
+    font-weight: 300;
+  }
+
+
+}

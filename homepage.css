@@ -1,0 +1,368 @@
+header {
+  padding-left : 5px;
+  text-align: left;
+  position: relative;
+  /*position relative is good to use for the header so we can position absolute
+  the navigation bar relative to the header*/
+  background-color: #232220;
+  padding: 0.2%;
+  color: white;
+}
+
+.firstpart {
+  text-align: left;
+  padding: 10px;
+  margin-left: 50%;
+}
+
+.parttwo {
+  text-align: left;
+  padding: 10px;
+  border: 30px ;
+  padding: 50px;
+  margin-top: 450px;
+  background-color: white;
+  margin-bottom: 300px;
+width: 100%;
+}
+#innerpart1, #innerpart2 {
+  margin-left: 50px;
+  /*in order to make both the elemnts near each other i choose float*/
+  float: left;
+  width: 45.5%;
+}
+
+#header2, #header3, #ph1, #header8, #header9, #header14,
+#header15, #header2,#header22, #header23, #ph10, #ph11,
+#ph12, #ph13, #ph15, #header21 {
+     color: white;
+}
+
+#header4, #ph15{
+  text-align: center;
+}
+
+#ad2, #info{
+  /*designing my own button*/
+  padding: 1.0em;
+  border-width: 20px;
+  /*to make round edges i used border radius*/
+  border-radius: 100px;
+  color: #fff;
+  background-color: #D1BDAF;
+  display: inline-block;
+  border: none ;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#br{
+  padding: 1.0em;
+  border-width: 20px;
+  border-radius: 100px;
+  color: white;
+  background-color:  #d29f68;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+
+}
+#bimg2{
+  /*setting an image i took as a background*/
+  background-image: url('isabella.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#part4{
+background-color: #d29f68;
+width: 80%;
+margin: auto;
+position: absolute;
+top:90%;
+left: 10%;
+
+
+}
+
+#ph6, #ph7 {
+    text-align: left;
+}
+
+div.Partthree {
+  background-color: #232220;
+  border: solid;
+  border-color: inherit;
+  position: relative;
+}
+.gridconatiner1{
+  /*i used the grid to position the elements the way i want without float*/
+display: grid;
+grid-template-columns: auto auto;
+}
+
+#ph13{
+  padding-bottom: 200px;
+}
+#br a, #info a, #ad2 a{
+  /*so that the button which is an <a> does not underline when clicking*/
+  text-decoration: none;
+    color: white;
+}
+
+div.partseven {
+  background-color:  #d29f68;
+}
+#ph22, #ph23 {
+  color: white;
+  min-width: 100%;
+  max-width: 200%;
+  text-align: left;
+}
+dt {
+  min-width: 100%;
+  max-width: 200%;
+
+}
+dd {
+  color: white;
+  min-width: 100%;
+  max-width: 200%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.parteight {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 40px;
+  padding: 20px;
+}
+
+img {
+  border-radius: 25px;
+  padding: 10px;
+}
+.partsix{
+  margin-top: 15%;
+  text-align: center;
+}
+#ph24{
+  width: 50%;
+  padding: 20px;
+}
+
+.leftpart{
+  max-height: 265px;
+  /*i wanted to add a scroll to the left part so i limited it's height first*/
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+/*this is to design the scroll bar*/
+.leftpart::-webkit-scrollbar {
+    width: 15px;
+}
+.leftpart ::-ms-scrollbar{  width: 15px;}
+/*this is for the scroll thumb*/
+.leftpart::-webkit-scrollbar-thumb {
+  background-color:  #232220;
+  border-radius: 6px;
+  border: 3px solid;
+}
+.leftpart ::-ms-scrollbar-thumb{
+  background-color:  #232220;
+  border-radius: 6px;
+  border: 3px solid; }
+/*and this is for the actual bar*/
+.leftpart::-webkit-scrollbar-track {
+  background:#ad8151;
+}
+/*the navigation is a list which has links to other pages
+i designed the list to look in one line and then i removed the list style so it does not look like one
+and for the links i displayed them as a block and later the homepage link in the
+navigation bar remains a different color while the rest changes when hovering over them*/
+.navbar li{
+  display: inline;
+  float: right;
+  padding: 5px;
+
+}
+.navbar ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.navbar li a{
+  display: block;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  border: 1px;
+  background-color: #232220 ;
+  color: white ;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.navbar li a:hover:not(.active) {
+  background-color: #727272;
+}
+#active{
+  background-color: white ;
+  color: black!important;
+}
+/*displaying the navigation bar on top*/
+.navbar{
+  position: absolute;
+  right: 0;
+  top: 25px;
+  margin-right: 2%;
+}
+
+#header0 a{
+  display: block;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  color: white ;
+  text-align: left;
+  padding: 7px;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  /*this is to include all paddings in width*/
+}
+/*i will be using media to change how the website looks on devices smaller than
+790 px*/
+@media (max-width:790px){
+/*to make the navigation bar readable it will be looking like a list almost*/
+    .navbar {
+        display: block;
+        color: #fff;
+        font-size: 1.25em;
+        background-color: #232220;
+        position: inherit;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar ul{
+      display: grid;
+      text-align: center;
+
+
+    }
+    .navbar ul li a{
+    float: none;
+    margin: inherit;
+    margin: auto;
+
+  }
+  .firstpart{
+    text-align: left;
+    width: 85%;
+    margin:inherit;
+  }
+  .firstpart p{
+    margin-top: 40%;
+  }
+  .parttwo{
+    width: 100%;
+    margin-top: 0;
+
+  }
+  .parttwo section{
+    display: block;
+    clear: both;
+    width: 90%;
+    float: none;
+margin: auto;
+    margin-left: 0;
+  }
+   #ph6, #ph7{
+    text-align: left;
+font-size: 15px;
+
+  }
+
+
+  #innerpart2{
+    color: black;
+  }
+  .Partthree {
+    margin-top: 10%;
+margin-left: auto;
+width: 100%;
+text-align: center;
+font-size: 10px;
+clear: both;
+}
+#sec4{
+  margin-bottom: 20%;
+}
+#part4{
+  margin-top: 10%;
+}
+#partsix{
+clear: both;
+}
+#header18{
+  padding-top: 20px;
+  margin-top: 45%;
+}
+.rightpart, .leftpart{
+float: none;
+clear: both;
+  overflow-x: hidden;
+  display: block;
+
+}
+.parteight{
+  display: block;
+  width: 100%;
+
+
+}
+#dogofweek{
+  height: 90%;
+  width: 100%;
+}
+div{
+  width: 100%;
+}
+*{
+  font-size: 100%;
+}
+#innerpart1, #innerpart2, #ph24, .rightpart, .leftpart{
+  margin:auto;
+  width: 100%;
+  padding:1%;
+}
+#ph22, #ph23{
+  width: 100%;
+  font-size: 100%;
+  max-width: 100%;
+}
+.leftpart::-webkit-scrollbar {
+    width: 5px;
+}
+.leftpart dt, dd, dl{
+  width: 90%;
+  margin-left: 0.5%;
+  padding: 0;
+  max-width: 99%;
+  display: block;
+}
+}

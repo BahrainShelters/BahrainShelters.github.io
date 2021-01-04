@@ -1,0 +1,104 @@
+/*i wanted to make this page simple yet has it's own charm, so i decided to use animation*/
+.introhelp{
+  padding:1%;
+  margin-top: 5%!important;
+  margin:auto;
+  background-color: #D1BDAF;
+  opacity: 0.8;
+  width :80%;
+  position: relative;
+  /*after positioning relative so it can always have it's place, i named the animation
+  set the tim of the animation to 3 sec and used the animation fill mode to
+  keep the last position it goes to */
+  animation: intani;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+/*adding the keyframe so we design the animation on different positions
+at zero pervent it comes from out of the borders of the page it sits in it's place
+at 100% */
+@keyframes intani {
+  0% {left: -20%; }
+  100%{left: 0%;}
+}
+
+/*i did the animation to each class and that added a nice touch to the page
+while keeping it simple*/
+.Donations{
+  padding:1%;
+  margin-top: 5%;
+  margin: auto;
+  background-color:  #232220;
+  opacity: 0.9;
+  width: 80%;
+  color: white;
+  position: relative;
+  animation: donani;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes donani {
+  0% {right: -20%}
+  100% { right: 0%}
+}
+
+.Volunteering{
+  padding: 1%;
+margin-top: 5%;
+margin: auto;
+background-color: #D1BDAF;
+opacity: 0.9;
+width: 80%;
+position: relative;
+animation: volani;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+@keyframes volani {
+  0% {left: -20%; }
+  100%{left: 0%;}
+}
+
+
+.thriftshops{
+  padding: 1%;
+  margin-top: 5%;
+  margin: auto;
+  background-color: #232220;
+  opacity: 0.9;
+  width: 80%;
+  color: white;
+  position: relative;
+  animation: thrani;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes thrani {
+  0% {right: -20%}
+  100% { right: 0%}
+}
+.foster{
+  padding: 1%;
+  margin-top: 5%;
+  margin: auto;
+  background-color: #D1BDAF;
+  opacity: 0.9;
+  width: 80%;
+  position: relative;
+  animation: fosani;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes fosani {
+  0% {left: -20%; }
+  100%{left: 0%;}
+}
+
+@media (max-width:790px) {
+  .introhelp, .Donations, .Volunteering, .thriftshops, .foster{
+    width: 100%;
+    padding: 2%;
+  }
+}
