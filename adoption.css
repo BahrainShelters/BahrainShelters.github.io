@@ -131,7 +131,7 @@ figcaption{
   padding-left: 1%;
   padding-right: 1%;
 }
-#fig img{
+#fig1 img, #fig2 img, #fig3 img, #fig4 img, #fig5 img, #fig6 img, #fig7 img, #fig8 img{
   width: 90%;
   height: 90%;
 }
