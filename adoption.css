@@ -111,7 +111,7 @@ text-align:center;
   size so that it does not over flow.
   and for the figures i had dispay them as something other than grid so that the user
   does not have to scroll horizontally*/
-#fig{
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7, #fig8{
   width: 100%;
   padding-left: 1%;
   clear: both;
